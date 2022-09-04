@@ -8,6 +8,6 @@
 
 </p>
 <br />
-     <p align = "centre "> I am a Fullstack web developer  transitioning to Data Analysis </p>
+     <p align = "centre "> I am a front end web developer </p>
 <br />
 
