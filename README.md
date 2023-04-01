@@ -8,6 +8,7 @@
 
 </p>
 <br />
+  <h1>Hey there </h1>
      <p align = "centre "> I am a front end web developer </p>
 <br />
 
