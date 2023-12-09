@@ -9,8 +9,9 @@
 </p>
 <br />
   <h1>About me : </h1>
-     <h2> I am a fullstack Web developer </h2>
+     <p> I am a fullstack Web developer </p>
      <p> Current tech stack : </p>
+     <br>
     <p> <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;  React for the front end </p>
     <p> <img src="https://github.com/devicons/devicon/blob/master/icons/go/go-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp; Go for the backend </p>
     <p><img src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp; Postgres for the database</p>
