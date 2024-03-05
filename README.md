@@ -9,7 +9,7 @@
 </p>
 <br />
   <h1>About me : </h1>
-     <p> I am a fullstack Web developer </p>
+     <p> Fullstack Web developer </p>
      <p> Current tech stack : </p>
      <br>
     <p> <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;  React for the front end </p>
