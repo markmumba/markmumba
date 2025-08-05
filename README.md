@@ -42,7 +42,7 @@
   Spring Boot, Next.js, REST API  
 - **[Year Book](#)**  
   Next.js, Django DRF
-- **[RentIt Up](https://rentitup-frontend.vercel.app/)**
+- **[RentIt Up](https://rentitup.blazor-movies.online)**
   Next.js, Spring Boot
 - **[Project Tracker](https://project-tracker-frontend-snowy.vercel.app/)**  
   Vite, Golang  
