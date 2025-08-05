@@ -32,7 +32,6 @@
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
   <img src="https://img.shields.io/badge/Contentful-2478CC?style=flat-square&logo=contentful&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white"/>
 </p>
 
 ---
