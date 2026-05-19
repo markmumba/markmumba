@@ -1,76 +1,74 @@
-<h1 align="center">Hey there! 👋 I'm Mark Mumba</h1>
-<h3 align="center">Full Stack Developer | Java · Python · JavaScript · System Design Enthusiast</h3>
+<h1 align="center">Markian Mumba</h1>
+<h3 align="center">Backend Engineer · Java / Spring Boot · Distributed Systems</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00B86B&vCenter=true&width=435&lines=Building+robust+apps+with+Spring+Boot,+Django,+React;Designing+scalable+systems;Learning+Vue+%26+DevOps+pipelines" alt="Typing SVG" />
+  <a href="https://medium.com/@mumbamarkian"><img src="https://img.shields.io/badge/Blog-Over--Engineered_on_Purpose-00B86B?style=flat-square&logo=medium&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/markian-mumba-67231517a/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:mumbamarkian@gmail.com"><img src="https://img.shields.io/badge/Email-Reach_out-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  📍 Nairobi, Kenya (GMT+3) · 🌍 Open to remote roles (EU / US overlap)
 </p>
 
 ---
 
-### 👨‍💻 **About Me**
+### About
 
-- 🌍 Full stack developer, comfortable across backend & frontend
-- 🛠️ **Tech Stack:** Java (Spring Boot), Python (Django/DRF), JavaScript (React, Next.js, Vite, Node), Golang, SQL/NoSQL (MongoDB), Docker, CI/CD, Contentful, Resend, Blazor
-- 💡 Interested in: System design, scaling systems, distributed systems, platform engineering
-- 🚀 Currently learning: Vue.js, building/deploying on VPS, automating pipelines (CI/CD)
-- ✨ Always curious about new tech & ways to build better products!
+I'm a backend engineer working primarily in **Java / Spring Boot**, with a focus on microservices, distributed systems, and the messy operational realities behind them — service discovery, auth flows, inter-service communication, and the cross-cutting concerns nobody warns you about.
 
----
+By day I build production systems at **Cloudit Africa** — Spring Boot microservices, Angular frontends, and Azure infrastructure. By night I build deliberately over-engineered side projects to learn the things production work doesn't expose me to: gRPC, OAuth2 authorization servers, service meshes, Spring auto-configuration internals.
 
-### 🛠️ **Languages & Tools**
-
-<p>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Contentful-2478CC?style=flat-square&logo=contentful&logoColor=white"/>
-</p>
+I write about it as I go.
 
 ---
 
-### 🚀 **Some Things I’ve Built**
+### 📝 Writing — *Over-Engineered on Purpose*
 
-- **[Smart Garbage Collection Platform](https://app.blazor-movies.online/)**  
-  Spring Boot, Next.js, REST API  
-- **[Year Book](#)**  
-  Next.js, Django DRF
-- **[RentIt Up](https://rentitup.blazor-movies.online)**
-  Next.js, Spring Boot
-- **[Project Tracker](https://project-tracker-frontend-snowy.vercel.app/)**  
-  Vite, Golang  
-- **[Oskaloosa Company Website](https://www.skaloosa.com/)**  
-  Next.js, Contentful CMS, Resend Email  
-- **[Blazor Movies](https://blazor-movies.online/)**  
-  Next.js, TMDb API
+A series documenting the build of **RentItUp**, a microservice platform, from scratch. Not a tutorial — more like an engineering journal of the decisions, dead-ends, and small victories along the way.
+
+- **Part 8 —** [A User Clicks 'Book Now' and Their JWT Travels Through Four Services. Here's How.](https://medium.com/@mumbamarkian/a-user-clicks-book-now-and-their-jwt-travels-through-four-services-here-s-how-f11af0832c6f) — gRPC interceptors, auto-configuration, and zero-trust between services
+- **Part 7 —** [Half of My OAuth2 Login Flow is Code I Never Wrote](https://medium.com/@mumbamarkian/half-of-my-oauth2-login-flow-is-code-i-never-wrote-c5eb810874cf) — Spring Authorization Server and JWKS
+
+Full series on [Medium →](https://medium.com/@mumbamarkian)
 
 ---
 
-### 🛣️ **Learning Journey**
+### 🛠 Stack
 
-- ☁️ Setting up apps & pipelines on VPS (DigitalOcean)
-- ⚙️ Building scalable backend architectures & CI/CD workflows
-- 🖼️ Exploring Vue.js for modern frontend projects
-
----
-
-### 📫 **Let’s Connect**
-
-- Email: [mumbamarkian@gmail.com](mailto:mumbamarkian@gmail.com)
-- LinkedIn: [linkedin.com/in/markmumba](https://www.linkedin.com/in/markian-mumba-67231517a/)
-- Twitter: [@markmumba](https://twitter.com/markmumba)
+**Primary** &nbsp;&nbsp; Java 17+ · Spring Boot · Spring Security · Spring Cloud · gRPC · PostgreSQL · RabbitMQ · Docker · Gradle  
+**Cloud / DevOps** &nbsp;&nbsp; Azure (App Service, Blob Storage, Front Door) · GitLab CI/CD · Eureka · Zipkin · Flyway  
+**Also work with** &nbsp;&nbsp; Angular · Next.js · TypeScript · Go · Python (Django) · MongoDB
 
 ---
 
-### ⚡ **Fun Fact**
+### 🚀 Selected Projects
 
-- Code, coffee, and a love for building things that scale!  
-- Outside code: you’ll find me in the gym or exploring new tech.
+**[RentItUp](https://github.com/markmumba/rentitup-microservice)** &nbsp; *Spring Boot · gRPC · OAuth2 · Eureka · PostgreSQL · RabbitMQ*  
+A machinery rental marketplace built as a deliberately over-engineered microservices platform — four independently deployable services with real-time availability, booking, and payment flows. Spring Authorisation Server with JWKS for auth, gRPC for inter-service communication with a custom Eureka name resolver and round-robin load balancing, a PostgreSQL unlogged-tables caching layer for catalogue browsing, and a shared common module with custom Spring auto-configuration that standardises auth, error handling, and service comms across the platform. Documented in the blog series above.
 
+**Foliocuts** &nbsp; *Spring Boot · PostgreSQL · M-Pesa Daraja*  
+A backend-driven barbershop management system digitising payments, commissions, and operational reporting. RESTful APIs for transactions, staff commissions, customer loyalty, and role-based dashboards. Integrated **M-Pesa STK Push** with automated transaction recording, receipt generation, and reconciliation logic — handling the messy realities of payment confirmations and edge cases that come with mobile money in Kenya.
+
+**BolloApp** &nbsp; *Spring Boot · Docker · MTN MoMo · VPS Deployment*  
+Backend services for a smart waste management platform exposing real-time APIs for scheduling, billing, and collections. Integrated **MTN MoMo payments** for automated customer billing and transaction verification, containerised the services, and shipped them to a VPS via CI/CD pipelines. The project where I learned how much of "production" is actually deployment, secrets management, and not breaking things between releases.
+
+**[Smart Garbage Collection Platform](https://app.blazor-movies.online/)** &nbsp; *Spring Boot · Next.js · REST*  
+End-to-end platform connecting collection requests to provider routing.
+
+---
+
+### 🎯 What I'm Into Right Now
+
+- Kubernetes — so the next iteration of RentItUp can move to a real service mesh
+- Spring Boot internals — auto-configuration, bean post-processors, the bits people treat as magic
+
+---
+
+### 📫 Reach Out
+
+Open to  backend roles — Spring Boot, microservices, distributed systems.
+
+- ✉️ mumbamarkian@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/markian-mumba-67231517a/)
+- ✍️ [Medium](https://medium.com/@mumbamarkian)
