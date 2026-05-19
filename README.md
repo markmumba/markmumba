@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  📍 Nairobi, Kenya (GMT+3) · 🌍 Open to remote roles (EU / US overlap)
+  📍 Nairobi, Kenya 
 </p>
 
 ---
