@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/markian-systems-banner.svg" alt="Animated backend systems banner for Markian Mumba" width="100%">
+  <img src="markian-systems-banner.svg" alt="Animated backend systems banner for Markian Mumba" width="100%">
 </p>
 
 <h1 align="center">Markian Mumba</h1>
