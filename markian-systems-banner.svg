@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Markian Mumba backend systems banner</title>
+  <desc id="desc">Animated network diagram for Java, Spring Boot, gRPC, OAuth2, and distributed systems.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="55%" stop-color="#172033"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00B86B"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title { fill: #f8fafc; font: 700 42px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .subtitle { fill: #cbd5e1; font: 500 18px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .label { fill: #e5e7eb; font: 600 15px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .tiny { fill: #94a3b8; font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .node { fill: rgba(15, 23, 42, 0.78); stroke: #334155; stroke-width: 1.2; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+      .flow { stroke-dasharray: 8 10; animation: dash 3.2s linear infinite; }
+      .delay-a { animation-delay: .35s; }
+      .delay-b { animation-delay: .7s; }
+      .delay-c { animation-delay: 1.05s; }
+      @keyframes dash { to { stroke-dashoffset: -72; } }
+      @keyframes pulse {
+        0%, 100% { opacity: .72; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.03); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .flow, .pulse { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+  <path d="M0 224 C180 172 270 250 438 204 C630 151 724 99 930 136 C1044 157 1121 121 1200 88" fill="none" stroke="#1f2937" stroke-width="34" opacity=".55"/>
+  <path d="M0 226 C180 172 270 250 438 204 C630 151 724 99 930 136 C1044 157 1121 121 1200 88" fill="none" stroke="url(#line)" stroke-width="2" opacity=".9" class="flow"/>
+
+  <g transform="translate(66 58)">
+    <text class="title" x="0" y="0">Markian Mumba</text>
+    <text class="subtitle" x="0" y="35">Backend systems, Spring Boot internals, and the operational middle.</text>
+    <g transform="translate(0 72)">
+      <rect x="0" y="0" width="92" height="30" rx="15" fill="#062e22" stroke="#00B86B" opacity=".95"/>
+      <text class="tiny" x="18" y="20">Java 17+</text>
+      <rect x="104" y="0" width="118" height="30" rx="15" fill="#082f49" stroke="#38BDF8" opacity=".95"/>
+      <text class="tiny" x="124" y="20">Spring Boot</text>
+      <rect x="236" y="0" width="74" height="30" rx="15" fill="#3b1d06" stroke="#F97316" opacity=".95"/>
+      <text class="tiny" x="258" y="20">gRPC</text>
+      <rect x="324" y="0" width="86" height="30" rx="15" fill="#2c1538" stroke="#C084FC" opacity=".95"/>
+      <text class="tiny" x="344" y="20">OAuth2</text>
+    </g>
+  </g>
+
+  <g transform="translate(455 58) scale(.9)">
+    <g class="pulse">
+      <rect class="node" x="0" y="52" width="120" height="58" rx="12"/>
+      <text class="label" x="29" y="86">Gateway</text>
+    </g>
+
+    <g class="pulse delay-a">
+      <rect class="node" x="194" y="0" width="126" height="58" rx="12"/>
+      <text class="label" x="236" y="34">Auth</text>
+      <text class="tiny" x="230" y="50">JWKS</text>
+    </g>
+
+    <g class="pulse delay-b">
+      <rect class="node" x="194" y="104" width="126" height="58" rx="12"/>
+      <text class="label" x="225" y="138">Booking</text>
+      <text class="tiny" x="226" y="154">command</text>
+    </g>
+
+    <g class="pulse delay-c">
+      <rect class="node" x="395" y="0" width="126" height="58" rx="12"/>
+      <text class="label" x="430" y="34">Catalog</text>
+      <text class="tiny" x="432" y="50">cache</text>
+    </g>
+
+    <g class="pulse delay-c">
+      <rect class="node" x="395" y="104" width="126" height="58" rx="12"/>
+      <text class="label" x="424" y="138">Payment</text>
+      <text class="tiny" x="424" y="154">events</text>
+    </g>
+
+    <path d="M120 81 C151 81 160 29 194 29" stroke="#38BDF8" stroke-width="2" fill="none" class="flow"/>
+    <path d="M120 81 C151 81 160 133 194 133" stroke="#00B86B" stroke-width="2" fill="none" class="flow"/>
+    <path d="M320 133 C356 133 358 29 395 29" stroke="#F97316" stroke-width="2" fill="none" class="flow"/>
+    <path d="M320 133 H395" stroke="#C084FC" stroke-width="2" fill="none" class="flow"/>
+
+    <circle r="6" fill="#00B86B" filter="url(#softGlow)">
+      <animateMotion dur="4s" repeatCount="indefinite" path="M120 81 C151 81 160 133 194 133"/>
+    </circle>
+    <circle r="6" fill="#38BDF8" filter="url(#softGlow)">
+      <animateMotion dur="4.8s" repeatCount="indefinite" path="M120 81 C151 81 160 29 194 29"/>
+    </circle>
+    <circle r="6" fill="#F97316" filter="url(#softGlow)">
+      <animateMotion dur="5.2s" repeatCount="indefinite" path="M320 133 C356 133 358 29 395 29"/>
+    </circle>
+  </g>
+
+  <text class="tiny" x="72" y="244">Nairobi, Kenya</text>
+  <text class="tiny" x="808" y="244">microservices / auth / observability / payments</text>
+</svg>
