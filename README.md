@@ -21,7 +21,7 @@
 
 I am a backend engineer working primarily in **Java / Spring Boot**, with a focus on microservices, distributed systems, and the operational realities around them: service discovery, auth flows, inter-service communication, observability, and the cross-cutting concerns nobody warns you about.
 
-By day I build production systems at **Cloudit Africa** across Spring Boot microservices, Angular frontends, and Azure infrastructure. By night I build deliberately over-engineered side projects to learn the parts production work does not always expose me to: gRPC, OAuth2 authorization servers, service meshes, and Spring auto-configuration internals.
+By day, I build production systems  across Spring Boot microservices, Angular frontends, and Azure infrastructure. By night I build deliberately over-engineered side projects to learn the parts production work does not always expose me to: gRPC, OAuth2 authorization servers, service meshes, and Spring auto-configuration internals.
 
 I write about the build as I go.
 
