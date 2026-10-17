@@ -51,7 +51,7 @@
 
   <g transform="translate(66 58)">
     <text class="title" x="0" y="0">Markian Mumba</text>
-    <text class="subtitle" x="0" y="35">Backend systems, Spring Boot internals, and the operational middle.</text>
+    <text class="subtitle" x="0" y="35">Full-stack systems, from React UIs down to Spring Boot internals.</text>
     <g transform="translate(0 72)">
       <rect x="0" y="0" width="92" height="30" rx="15" fill="#062e22" stroke="#00B86B" opacity=".95"/>
       <text class="tiny" x="18" y="20">Java 17+</text>
@@ -60,7 +60,7 @@
       <rect x="236" y="0" width="74" height="30" rx="15" fill="#3b1d06" stroke="#F97316" opacity=".95"/>
       <text class="tiny" x="258" y="20">gRPC</text>
       <rect x="324" y="0" width="86" height="30" rx="15" fill="#2c1538" stroke="#C084FC" opacity=".95"/>
-      <text class="tiny" x="344" y="20">OAuth2</text>
+      <text class="tiny" x="344" y="20">React</text>
     </g>
   </g>
 
@@ -111,5 +111,5 @@
   </g>
 
   <text class="tiny" x="72" y="244">Nairobi, Kenya</text>
-  <text class="tiny" x="808" y="244">microservices / auth / observability / payments</text>
+  <text class="tiny" x="808" y="244">frontends / microservices / messaging / payments</text>
 </svg>
